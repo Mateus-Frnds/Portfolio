@@ -3,44 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
 </head>
-<body class="home">
-    <header class="bg-dark text-white p-3">
-        <div class="container d-flex justify-content-between align-items-center">
-            <img src="img/logo.png" class="logo" alt="Logo">
-            <nav>
-                <a href="index.html" class="text-white mx-2">Home</a>
-                <a href="quem eu sou.html" class="text-white mx-2">Quem eu sou</a>
-                <a href="contato.html" class="text-white mx-2">Entre em contato</a>
-            </nav>
-        </div>
+<body>
+    <header>
+        <a href="index.html" class="logo"> < Mateus > </a>
+        <nav>
+            <a href="index.html" class="active"> Home</a>
+            <a href="profissional.html">Profissional</a>
+            <a href="academico.html">Acadêmico</a>
+            <a href="servicos.html">Certificações</a>
+        </nav>
     </header>
 
-    <main class="container my-5">
-        <div class="text-center">
-            <img src="img/capa.png" class="img-fluid capa" alt="Capa">
-        </div>
-
-        <div class="conteudo my-5">
-            <h2>Sobre mim</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <h2>2017 - 2020</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-        </div>
+    <main>
+        <section class="home">
+            <div class="home-img">
+                <img src="images/main.jpg" alt="">
+            </div>
+            <div class="home-content">
+                <h1>Olá, meu nome é <span>Mateus</span></h1>
+                <h3 class="typing-text">Eu sou um <span></span></h3>
+                <p>Nascido em São Paulo, criado em Santa Catarina. Minha vida é viver em constante mudança e aprendizado. Iniciei na programação em 2017, e nos vais e vens da vida, retornei.
+                    Aqui você pode encontrar mais informações sobre mim e sobre meus trabalhos. Atualmente estudando na FATEC - São José dos Campos, e estagiando na T-Systems do Brasil.
+                </p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/o-mateus-fernandes/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Mateus-Frnds"><i class="fa-brands fa-github"></i></a>
+                    <a href="x.com/o_maateus"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/o_maateus/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="https://wa.me/+5512982246103" class="btn">Entre em contato</a>
+            </div>
+        </section>
     </main>
 
-    <footer class="bg-dark text-white text-center py-3">
-        Todos os direitos reservados
+    <footer>
     </footer>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
